@@ -26,6 +26,11 @@ namespace CHashLearn
 		}
 
 
+		public void SeperatingCommentPassRef()
+		{
+			Console.WriteLine("Below is the output example of passing with reference");
+		}
+
 		public void ExamplePassWithRef()
 		{
 			float anotherFloat = 40f;
@@ -47,12 +52,24 @@ namespace CHashLearn
 		}
 
 
-  
+		public void NewLineFucntion()
+		{
+			Console.WriteLine("\n");
+		}
+
+
+		public void SeperatingCommmentOverloading()
+		{
+			Console.WriteLine("Below is the output example of overloading where one function can take two inputs as well as three:");
+		}
+
 
 		public void ExampleOfOverloading()
 		{
 			int addedValue = (int)AddFunction(5, 10);         //AddFunction() here is casted into int - returns float by default
+			Console.WriteLine($"addedValue is giving two inputs to AddFunction(): {addedValue}");
 			float addedValue2 = AddFunction(5, 10, 20);       //AddFunction() here not casted into int - returns float by default
+			Console.WriteLine($"addedValue2 is giving three inputs to AddFunction(): {addedValue2}");
 		}
 
 		float AddFunction(float a, float b)
@@ -71,6 +88,11 @@ namespace CHashLearn
 
 		}
 
+
+		public void SeperatingCommmentCasting()
+		{
+			Console.WriteLine("Below is the output example of casting and also gives o/p as 10 showing that it gives lower limit value by default:");
+		}
 
 
 		public void ExampleOfCasting()

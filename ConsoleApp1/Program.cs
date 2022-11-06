@@ -13,9 +13,20 @@ namespace CHashLearn // Note: actual namespace depends on the project name.
 
 
 			BasicsLearnCode newItem = new BasicsLearnCode();
+			newItem.SeperatingCommentPassRef();
 			newItem.ExamplePassWithRef();
+
+			newItem.NewLineFucntion();
+
+			newItem.SeperatingCommmentCasting();
 			newItem.ExampleOfCasting();
+
+			newItem.NewLineFucntion();
+
+			newItem.SeperatingCommmentOverloading();
 			newItem.ExampleOfOverloading();
+
+			newItem.NewLineFucntion();
 
 
 		}
